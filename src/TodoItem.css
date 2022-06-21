@@ -1,0 +1,50 @@
+.todo-item {
+
+    margin: 0 5px;
+
+    display: flex;
+    height: 1.5rem;
+    width: calc(100% - 10px);
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px 0px;
+
+    background-color: darkgray;
+
+    border-bottom: solid 1px black
+
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+
+.todo-item > p {
+    padding-left: 10px;
+    width: 80%;
+}
+
+
+.todo-item > input {
+    width: 10%;
+    height: 100%;
+}
+
+.todo-item > button {
+    width: 10%;
+    margin-right: 10px;
+    height: 100%;
+
+    border: none;
+    background-color: red;
+
+    border-radius: 5px;
+}
+
+.todo-item > button:active {
+    background-color: darkred;
+    color: white
+}
